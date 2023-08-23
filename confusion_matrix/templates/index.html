@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Face Recognition Results</title>
+</head>
+<body>
+    <h1>Face Recognition Results</h1>
+    
+    <h2>Confusion Matrix</h2>
+    <img src="{{ confusion_matrix }}" alt="Confusion Matrix" style="max-width: 100%;">
+
+    <h2>Results Table</h2>
+    {{ results | safe }}
+</body>
+</html>
